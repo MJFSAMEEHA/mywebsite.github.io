@@ -1,0 +1,187 @@
+
+.container{
+    font-family:cursive;
+    
+    color: darkblue;
+}
+
+.bgimage {
+    height:100vh;
+    background: url('pic1.jpg');
+    background-size:cover;
+    position:relative;
+}
+
+.bgimage1 {
+    height:100vh;
+    background: url('pic5.jpg');
+    background-size:cover;
+    position:relative;
+}
+.bgimage2 {
+    height:100vh;
+    background: url('bg\ last.jpg');
+    background-size:cover;
+    position:relative;
+}
+.bgimage3 {
+    height:30vh;
+    background-color: skyblue;
+    background-size:cover;
+    position:relative;
+}
+
+.title {
+    font-size: 4.5rem;
+}
+.desc {
+    font-size: 2rem;
+}
+.text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
+}
+
+.me{
+    text-align: right;
+    padding-top: 100px;
+}
+.text1{
+    text-align: center;
+    color: rgb(201, 140, 34);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.morame{
+    left: 20%;   
+}
+.Q1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 25px;
+    color:darkgoldenrod;
+    font-style: oblique;
+}
+.text2{
+    left: 20%;
+    position: absolute;
+    font-family: mv system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-size: 35px;
+    color: white;
+}
+
+.text3{
+    left: 20%;
+    padding-top: 5px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    color: white;
+    
+}
+
+table {
+    
+	border-collapse: collapse;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+table td {
+	padding-top: 40px;
+}
+table thead td {
+	background-color:lightblue;
+	color:darkblue;
+	font-weight: bold;
+	font-size: 16px;
+	border: 1px solid #54585d;
+    text-align: center;
+}
+table tbody td {
+	color: #636363;
+	border: 1px solid #dddfe1;
+}
+table tbody tr {
+	background-color: #f9fafb;
+}
+table tbody tr:nth-child(odd) {
+	background-color: #ffffff;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    background-color: #272727;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+    margin-top: auto;
+}
+
+footer li{
+    list-style: none;
+    margin: 10px;
+    display: inline-block;
+}
+
+.icons a{
+    background: #52527a;
+    color: #272727;
+    padding: 14px;
+    font-size: 20px;
+    border-radius: 100%;
+    display: flex;
+}
+.icons a:hover{
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.menu a{
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.menu a:hover{
+    color: #52527a;
+    transition: 0.5s;
+}
+
+.footer-copyright{
+    background-color:#52527a;
+    color: #ffffff;
+    padding: 15px;
+    margin-top: 30px;
+    text-transform: capitalize;
+}
+
+.footer-copyright p{
+    margin-bottom: 0px;
+}
+
+
+
+  
